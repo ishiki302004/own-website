@@ -177,19 +177,19 @@ p{
 	align-items: center;
 }
 .card1{
-	background-image: url('https://thumbs.dreamstime.com/b/fast-food-assortme…t-unhealthy-heart-teeth-skin-figure-192430684.jpg');
+	background-image: url('../src/food.jpeg');
 }
 .card2{
-	background-image: url('	https://wallpaperaccess.com/full/4857344.jpg');
+	background-image: url('../src/place.jpeg');
 }
 .card3{
-	background-image: url('https://cdn.julieannesanjose.com/what_is_a_blackpink_concert_like.jpg');
+	background-image: url('../src/idol.jpeg');
 }
 .card4{
-	background-image: url('	https://wallpaper.dog/large/20495719.jpg');
+	background-image: url('../src/anime.jpeg');
 }
 .card5{
-	background-image: url('https://i.pinimg.com/736x/b3/56/fc/b356fc54e7cb6e61abb4f3629fa85425.jpg');
+	background-image: url('../src/song.jpeg');
 }
 
 h5{
