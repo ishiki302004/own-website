@@ -14,7 +14,7 @@
 
 body {
 	background: #fff;
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../src/sky.jpeg');
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://images6.alphacoders.com/122/1223901.jpg');
 	width: 100%;
 	height: 100vh;
 	background-position: center;
@@ -177,19 +177,19 @@ p{
 	align-items: center;
 }
 .card1{
-	background-image: url('../src/food.jpeg');
+	background-image: url('https://thumbs.dreamstime.com/b/fast-food-assortme…t-unhealthy-heart-teeth-skin-figure-192430684.jpg');
 }
 .card2{
-	background-image: url('../src/place.jpeg');
+	background-image: url('	https://wallpaperaccess.com/full/4857344.jpg');
 }
 .card3{
-	background-image: url('../src/idol.jpeg');
+	background-image: url('https://cdn.julieannesanjose.com/what_is_a_blackpink_concert_like.jpg');
 }
 .card4{
-	background-image: url('../src/anime.jpeg');
+	background-image: url('	https://wallpaper.dog/large/20495719.jpg');
 }
 .card5{
-	background-image: url('../src/song.jpeg');
+	background-image: url('https://i.pinimg.com/736x/b3/56/fc/b356fc54e7cb6e61abb4f3629fa85425.jpg');
 }
 
 h5{
