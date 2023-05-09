@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Jost:wght@500&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Jost:wght@500&family=Merriweather+Sans:wght@800&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Jost:wght@500&family=Merriweather+Sans:wght@800&family=Montserrat&family=Mukta:wght@700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background: #fff;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://images6.alphacoders.com/122/1223901.jpg');
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background: #11101b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 100px;
+	position: fixed;
+}
+
+.header2 {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.logo {
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+	font-weight: bold;
+}
+.hamburger {
+	display: none;
+	
+}
+
+.nav-bar  ul{
+	display: flex;
+	
+}
+
+.nav-bar ul li a {
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 25px;
+	border-radius: 50px;
+	transition:  0 .2s;
+	margin: 0 5px;
+	
+}
+
+.nav-bar ul li a:hover {
+	color: #11101b;
+	background: #fff;
+	
+}
+
+@media only screen and (max-width: 1320px) {
+	header{
+		padding: 0 50px;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	header{
+		padding: 0 30px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.hamburger {
+		display: block;
+		cursor: pointer;
+	}
+	.hamburger .line {
+		width: 30px;
+		height: 3px;
+		background: #fff;
+		margin: 6px 0;
+	}
+	.nav-bar {
+		height: 0;
+		position: absolute;
+		top: 80px;
+		left: 0;
+		right: 0;
+		width: 100vw;
+		background: #11101b;
+		transition: 0.5s;
+		overflow: hidden;
+	}
+	.nav-bar.active {
+		height: 450px;
+		
+	}
+	.nav-bar ul {
+		display: block;
+		width: fit-content;
+		margin: 80px auto 0 auto;
+		text-align: center;
+		transition: 0.5s;
+		opacity: 0;
+	}
+	.nav-bar.active ul {
+		opacity: 1;
+	}
+	.nav-bar ul li a {
+		margin-bottom: 12px;
+		
+	}
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 0%;
+	box-sizing: border-box;
+	
+}
+
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: Arial;
+	margin-top: 20px;
+	letter-spacing: 1.2px;
+	line-height: 20px;
+}
+#aboutMe{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #fff;
+}
+.card{
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+	margin-left: 75px;
+	margin-bottom: 30px;
+	align-items: center;
+}
+.card1{
+	background-image: url('https://thumbs.dreamstime.com/b/fast-food-assortme…t-unhealthy-heart-teeth-skin-figure-192430684.jpg');
+}
+.card2{
+	background-image: url('	https://wallpaperaccess.com/full/4857344.jpg');
+}
+.card3{
+	background-image: url('https://cdn.julieannesanjose.com/what_is_a_blackpink_concert_like.jpg');
+}
+.card4{
+	background-image: url('	https://wallpaper.dog/large/20495719.jpg');
+}
+.card5{
+	background-image: url('https://i.pinimg.com/736x/b3/56/fc/b356fc54e7cb6e61abb4f3629fa85425.jpg');
+}
+
+h5{
+	color: #fff;
+	text-shadow: 0 0 5px #999;
+}
+.card:hover{
+	transform: translateY(-10px);
+	
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size: 8px;
+}
+.header2{
+	color: black;
+	text-align: center;
+     
+}
+.para2{
+	color: black;
+	text-align: center;
+	margin-bottom: 30px;
+}
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #212A3E;
+}
+.footer1{
+	color: #fff;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper{
+  position: relative;
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .form-box{
+	width: 100%;
+	padding: 40px;
+}
+
+.form-box h2{
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+}
+
+.input-box {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid #fff;
+	margin: 30px 0;
+}
+
+.input-box label {
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	transform: translateY(-50%);
+	font-size: 1em;
+	color: #fff;
+	font-weight: 500;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+	top: -5px;
+}
+
+.input-box input{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1em;
+	color: #fff;
+	font-weight: 600;
+	padding: 0 35px 0 5px;
+}
+
+.input-box .icon{
+	position: absolute;
+	right: 8px;
+	font-size: 1.2em;
+	color: #fff;
+	line-height: 57px;
+}
+
+.remember-forgot {
+	font-size: .9em;
+	color: #fff;
+	font-weight: 500;
+	margin: -15px 0 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.remember-forgot label input {
+	accent-color: black;
+	margin-right: 3px;
+}
+
+.btn {
+	width: 100%;
+	height: 45px;
+	background: #162938;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1em;
+	color: #fff;
+	font-weight: 500;
+}
+
+footer {
+	color: #fff;
+	bottom: 0px;
+	width: 100%;
+	background: #111;
+}
+
+.main-content {
+	display: flex;
+	
+}
+
+.main-content .box {
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+
+.box h2 {
+	font-size: 1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.box .content {
+	margin: 20px 0 0 0;
+}
+.left .content p {
+	text-align: justify;
+}
+.left .content .social {
+	margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+	padding: 0 2px;
+}
+
+.left .content .social a span {
+	height: 40px;
+	width: 40px;
+	background: #1a1a1a;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+	background: #f12020;
+	
+}
+
+#body1 {
+	background: #fff;
+}
+section {
+	background: #fff;
+}
+.reference {
+	padding-top: 135px;
+	text-align: center;
+}
+
+.reference h2 {
+	color: black;
+}
+
+.container-cite {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    text-indent: -36px;
+    padding-left: 50px;
+	padding-bottom: 10%;
+    word-break: break-word;
+    color: #EDDFD3;
+}
+p .links{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.links {
+	color: black;
+}
+
+.container-food {
+	width: 70%;
+    height: 90%;
+    margin: auto;
+    text-indent: 50px;
+    padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 5%;
+}
+
+.des {
+	color: black;
+	text-align: justify;
+    text-justify: inter-word;
+	padding-bottom: 30px;
+}
+
+.img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 75%;
+}
+
+.title {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 50px;
+}
+
+.name {
+	font-family: 'Mukta', sans-serif;
+}
+
+
+

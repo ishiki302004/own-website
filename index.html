@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main Page</title>
+  <meta charset="Website">
+  <meta name="description" content="Blog Website">
+  <meta name="keywords" content="Top 5, Foods, Songs, Singers, Places, Anime Series, About, Contact, Home Page">
+  <meta name="author" content="Felix Miguel">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles//F_Project.css"> 
+  
+</head>
+
+<body>
+    
+	<header>
+	    <div class="logo">Devlix</div>
+		<div class="hamburger">
+		     <div class="line"></div>
+			 <div class="line"></div>
+			 <div class="line"></div>
+		</div>
+		<nav class="nav-bar">
+		  <ul>
+		     <li>
+			    <a href="#" class="active">Home</a>
+			 </li>
+			 <li>
+			    <a href="#aboutMe">About</a>
+			 </li>
+			 <li>
+			    <a href="#mainfooter">Contact</a>
+			 </li>
+			 <li>
+			    <a href="pages/references.html">References</a>
+			 </li>
+			 <li>
+			    <a href="pages/registrationform.html">Registration</a>
+			 </li>
+		  </ul>
+		</nav>
+	</header>
+	
+	<div class="container">
+	  <div class="row">
+		   <div class="col">
+			 <h1>Hi! Welcome to my Website</h1>
+			 <p>I am Felix Miguel, the owner of this website. I am currently taking a Bachelor of Science in Computer Science at the University of Baguio. If you want to learn about my personal background, then feel free to explore my website.</p>
+		   </div>
+      </div>
+	  </div>
+	  
+	  <section id="aboutMe">
+	  <h1 class="header2">About Me</h1>
+	    <p class="para2">Pick one below to know my top 5 in each category.</p>
+		   <div class="col">
+			   <a href="pages/foods.html">
+			   <div class="card card1">
+				 <h5>Foods</h5>
+			   </div>
+			   </a>
+			   <a href="pages/places.html">
+			   <div class="card card2">
+				 <h5>Places</h5>
+			   </div>
+			   </a>
+			   <a href="pages/idols.html">
+			   <div class="card card3">
+				 <h5>Singers</h5>
+			   </div>
+			   </a>
+			   <a href="pages/anime.html">
+			   <div class="card card4">
+				 <h5>Anime Series</h5>
+			   </div>
+			   </a>
+			   <a href="pages/songs.html">
+			   <div class="card card5">
+				 <h5>Songs</h5>
+			   </div>
+			   </a>
+			   
+		   </div>
+	</section>
+	
+    <footer id="mainfooter">
+	    <div class="main-content">
+		    <div class="left box">
+			   <h2>About</h2>
+			   <div class="content">
+			      <p>Use the form on the right side to message me if you have inquiries. Let me know your questions, suggestions, and concerns.</p>
+			   </div>
+			</div>
+	      <div class="center box">
+		     <h2>Address</h2>
+			  <div class="content">
+			   <div class="place">
+			     <span class="fas fa-map-maker-alt"></span>
+				 <span class="text">122 Dormitory & Apartment,<br> Upper Bonifacio,<br> Baguio City</span>
+			   </div><br>
+			   <div class="phone">
+			     <span class="fas fa-phone-alt"></span>
+				 <span class="text">+63 9878929283</span>
+			   </div><br>
+			   <div class="email">
+			     <span class="fas fa-envelope"></span>
+				 <span class="text">felixgalpao04@gmail.com</span>
+			   </div>
+			  </div>
+		  </div>
+		  <div class="right box">
+		    <h2>Contact me</h2>
+			<div class="content">
+			  <form action="#">
+			    <div class="email">
+				   <div class="text">Email *</div>
+				   <input type="email" required>
+				</div><br>
+				<div class="msg">
+				   <div class="text">Message *</div>
+				   <textarea rows="5" cols="50" required></textarea>
+				</div><br>
+				<div class="bttn">
+				   <button type="submit">Send</button>
+				</div>
+			  </form>
+			</div>
+		  </div>
+		</div>
+	    <p class="footer1">© 2023 Devlix | All Rights Reserved<p>
+	</footer>
+	
+	
+	
+	
+	
+	<script>
+	     hamburger = document.querySelector(".hamburger");
+		 hamburger.onclick = function() {
+		      navBar = document.querySelector(".nav-bar");
+			  navBar.classList.toggle("active");
+		 }
+	</script>
+	  
+</body> 
+</html>
+
